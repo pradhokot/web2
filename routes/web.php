@@ -13,6 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+
+// --------------------------------------------------------------------------
+// USER INTERFACE PAGES
+// --------------------------------------------------------------------------
+
+Route::get('/ui/', function () {
+    return view('ui/landing');
 });
